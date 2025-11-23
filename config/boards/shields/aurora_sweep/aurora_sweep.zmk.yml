@@ -1,0 +1,12 @@
+file_format: "1"
+id: aurora_sweep
+name: Aurora Sweep
+type: shield
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+  - studio
+siblings:
+  - aurora_sweep_left
+  - aurora_sweep_right

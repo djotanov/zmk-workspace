@@ -1,0 +1,15 @@
+#include "aurora_sweep.dtsi"
+
+/ {
+    chosen {
+        zmk,kscan = &mock_kscan;
+        zephyr,display = &oled;
+    };
+
+    mock_kscan: mock_kscan_0 {
+        compatible = "zmk,kscan-mock";
+        columns = <0>;
+        rows = <0>;
+        events = <0>;
+    };
+};
